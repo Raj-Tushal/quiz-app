@@ -103,7 +103,7 @@ flex-direction: column;
 
 @media (max-width:600px) {
   .container {
-    height: 58vh;
+    min-height: 58vh;
     width: 92vw;
     background-color: rgba(245, 245, 245, 0.8); 
     box-shadow: 0 4px 8px rgba(0, 0, 0, 5);
@@ -114,6 +114,10 @@ flex-direction: column;
     padding: 40px;
     gap: 30px;
     border-radius: 50px;
+  }
+  .Quiz {
+    color: red;
+    font-size: 35px;
   }
 }
 
