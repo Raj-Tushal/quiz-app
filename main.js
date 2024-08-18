@@ -4,7 +4,7 @@ const option2 = document.querySelector(".option2");
 const option3 = document.querySelector(".option3");
 const option4 = document.querySelector(".option4");
 const nextBtn = document.querySelector(".nextBtn");
-const result = document.querySelector(".result"); // Assuming you have a result element in your HTML
+const result = document.querySelector(".result"); 
 const container = document.querySelector(".container")
 
 const quizQuestions = [
