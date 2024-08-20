@@ -15,7 +15,7 @@ flex-direction: column;
 }
 
 .container {
-  height: 65vh;
+  height: 75vh;
   width: 50vw;
   background-color: rgba(245, 245, 245, 0.8); 
   box-shadow: 0 4px 8px rgba(0, 0, 0, 5);

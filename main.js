@@ -62,15 +62,13 @@ nextBtn.addEventListener("click", function() {
         currentQuestionIndex++;
         printInfo();
     } else {
-        // Apply custom styles for font size and font weight
         container.innerHTML = `
             <div style="font-size: 35px; font-weight: bold; text-align: center; margin-top: 20px;">
                 You answered ${correctAnswers} out of ${quizQuestions.length} questions correctly!
             </div>`;
-        nextBtn.disabled = true; // Disable the Next button to indicate the end of the quiz
+        nextBtn.disabled = true; 
     }
     
 });
 
-// Initialize the first question when the page loads
 printInfo();
